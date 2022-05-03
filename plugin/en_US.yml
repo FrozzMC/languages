@@ -1,1 +1,3 @@
-
+commands:
+  setlobby:
+    help: 'pus, el setlobby wei, nomames v:'

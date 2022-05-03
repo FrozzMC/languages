@@ -1,1 +1,9 @@
-
+scoreboard:
+  title: '&b&lFrozzMC'
+  lines:
+    - ''
+    - ' &f» &e%player_name%'
+    - ''
+    - ' &fLobby: &a#1'
+    - ''
+    - ' &eplay.frozzmc.us'

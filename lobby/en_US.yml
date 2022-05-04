@@ -1,9 +1,9 @@
 scoreboard:
   title: '&b&lFrozzMC'
-  lines:
-    - ''
-    - ' &f» &e%player_name%'
-    - ''
-    - ' &fLobby: &a#1'
-    - ''
-    - ' &eplay.frozzmc.us'
+  lines: |-
+      &a
+      &f» &e%player_name%
+      &a
+      &fLobby: &a#1
+      &a
+      &eplay.frozzmc.us'

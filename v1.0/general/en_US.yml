@@ -1,6 +1,8 @@
 commands:
   setlobby:
     help: 'pus, el setlobby wei, nomames v:'
+  reload:
+    help: 'pus, el de reload wei, dobabes :v'
 
 noPermission: '&cYou do not have permissions to do that!'
 sectionNotFound: '&cThat section of languages doesn''t exist on our database!'

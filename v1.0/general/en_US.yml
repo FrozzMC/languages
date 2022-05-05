@@ -2,6 +2,8 @@ commands:
   help: |-
     {center}{prefix}&fHelp
     &7
+    {commands}
+    &7
   setlobby:
     help: 'pus, el setlobby wei, nomames v:'
     success: '{prefix}&aLobby spawnpoint setted!'

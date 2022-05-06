@@ -1,14 +1,16 @@
 scoreboard:
-  title: '&b&lFrozzMC'
+  title: '&b&lFrozzMC &8(&7%server_online%&8)'
   lines: |-
       &a
-      &f» &e%player_name%
+      &e ● &f%player_name%
       &a
-      &fLobby: &a#1
+      &f Rank: %luckperms_primary_group_name%
+      &f Ping: &e%player_ping%
+      &a
+      &f Lobby: &a#1
       &a
       &eplay.frozzmc.us
-
-
+      
 npcs:
   skywars:
     line1: '&b&lSkyWars'

@@ -1,0 +1,32 @@
+scoreboard:
+  title: '&b&lFrozzMC &8(&7%server_online%&8)'
+  lines: |-
+      &a
+      &e ● &f%player_name%
+      &a
+      &f Rango: %luckperms_primary_group_name%
+      &f Ping: &e%player_ping%
+      &a
+      &f Lobby: &a#1
+      &a
+      &eplay.frozzmc.us
+      
+npcs:
+  skywars:
+    line1: '&b&lSkyWars'
+    line2: '&e0 &7jugando'
+  bedwars:
+    line1: '&b&lBedWars'
+    line2: '&e0 &7jugando'
+  thebridge:
+    line1: '&b&lTheBridge'
+    line2: '&e0 &7jugando'
+  practice:
+    line1: '&b&lPractice'
+    line2: '&e0 &7jugando'
+  creative:
+    line1: '&b&lCreativo'
+    line2: '&e0 &7jugando'
+  survival-custom:
+    line1: '&b&lSurvival Custom'
+    line2: '&e0 &7jugando'            

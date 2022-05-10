@@ -1,0 +1,22 @@
+commands:
+  help: |-
+    {center}{prefix}&fHelp
+    &7
+    {commands}
+    &7
+  setlobby:
+    help: 'pus, el setlobby wei, nomames v:'
+    success: '{prefix}&aLobby spawnpoint setted!'
+  reload:
+    help: 'pus, el de reload wei, dobabes :v'
+    success: '{prefix}&aTodos los archivos han sido reiniciados!'
+    local: '{prefix}&aLos archivos locales han sido reiniciados!'
+
+noPermission: '&c¡No tienes permiso para hacer eso!'
+sectionNotFound: '&c¡Esa sección no existe!'
+keyNotFound: '&cEsa key de lenguaje no existe.'
+onlyPlayers: '&c¡Esta opción es solo para jugadores!'
+onlyConsole: '&c¡Esta opción es solo para consola!'
+commandNotExist: '&c¡Ese comando no existe!'
+
+error: '&4¡Error!'

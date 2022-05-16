@@ -20,8 +20,9 @@ commands:
     local: '{prefix}&aLocal files have been reloaded!'
 
 noPermission: '&cYou do not have permissions to do that!'
-sectionNotFound: '&cThat section of languages doesn''t exist on our database!'
-keyNotFound: '&cThat key of language string doesn''t exist.'
+sectionNotFound: '&f{section}&cdoesn''t exist!'
+languageNotFound: '{prefix}&cEse lenguaje no existe.'
+keyNotFound: '&cNeed translation: &f{key}.'
 onlyPlayers: '&cThat option is only for players!'
 onlyConsole: '&cThat option is only for players!'
 commandNotExist: '&cThat command doesn''t exist!'

@@ -29,4 +29,20 @@ npcs:
     line2: '&e0 &7jugando'
   survival-custom:
     line1: '&b&lSurvival Custom'
-    line2: '&e0 &7jugando'            
+    line2: '&e0 &7jugando'      
+
+tab:
+  header: |-
+    &7
+    &b&lFrozz&f&lMC Network&7
+    play.frozzmc.us
+    &7
+    &7¡Bienvenido a &b&lFrozz&7!
+    &7
+  footer: |-
+    
+    &9&lDiscord:&f dc.frozzmc.us
+    &a&lTienda:&f store.frozzmc.us
+    &b&lTwitter:&f @frozzmcus
+    
+    &7Juega con &f%bungee_online% &7jugadores más en nuestras modalidades.

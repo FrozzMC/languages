@@ -21,8 +21,9 @@ commands:
     local: '{prefix}&aLos archivos locales han sido reiniciados!'
 
 noPermission: '&c¡No tienes permiso para hacer eso!'
-sectionNotFound: '&c¡Esa sección no existe!'
-keyNotFound: '&cEsa key de lenguaje no existe.'
+languageNotFound: '{prefix}&cEse lenguaje no existe.'
+sectionNotFound: '&c¡&f{section} &cno existe!'
+keyNotFound: '&cSin traducción: &f{key}&c.'
 onlyPlayers: '&c¡Esta opción es solo para jugadores!'
 onlyConsole: '&c¡Esta opción es solo para consola!'
 commandNotExist: '&c¡Ese comando no existe!'

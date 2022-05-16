@@ -1,20 +1,20 @@
 commands:
   help: |-
-    {center}{prefix}&fHelp
+    {center}{prefix}&fHelp &7● &e<opcional> / [requerido]
     &7
     {commands}
     &7
   setlobby:
     help: 'pus, el setlobby wei, nomames v:'
-    success: '{prefix}&aLobby spawnpoint setted!'
+    success: '{prefix}&aLobby spawnpoint establecido!'
   lang:
     help: 'pus, el de lang wei, nomms :v'
-    get: '{prefix}&fYour language is &e{lang}&f.'
-    get_other: '{prefix}&b{player}''s &flanguage is &e{lang}&f.'    
-    set: '{prefix}&a¡Tu lenguaje cambió a &e{lang}&a!'
-    reset: '{prefix}&a¡Tu lenguaje fue reestablecido a &e{lang}&a!'
-    reset_other: '{prefix}&a¡El lenguaje de {player} fue reestablecido a &e{lang}&a!'
-    set_other: '{prefix}&a¡Lenguaje de {player} ha sido cambiado a &e{lang}&a!'    
+    get: '{prefix}&fTu lenguaje es &e{lang}&f.'
+    get_other: '{prefix}&fEl lenguaje de &b{player} &fes &e{lang}&f.'    
+    set: '{prefix}&f¡Tu lenguaje cambió a &e{lang}&f!'
+    reset: '{prefix}&f¡Tu lenguaje fue reestablecido a &e{lang}&f!'
+    reset_other: '{prefix}&f¡El lenguaje de &b{player} &ffue reestablecido a &e{lang}&f!'
+    set_other: '{prefix}&f¡Lenguaje de &b{player} &fha sido cambiado a &e{lang}&f!'    
   reload:
     help: 'pus, el de reload wei, dobabes :v'
     success: '{prefix}&aTodos los archivos han sido reiniciados!'

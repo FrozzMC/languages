@@ -7,6 +7,11 @@ commands:
   setlobby:
     help: 'pus, el setlobby wei, nomames v:'
     success: '{prefix}&aLobby spawnpoint setted!'
+  lang:
+    help: 'pus, el de lang wei, nomms :v'
+    set: '{prefix}&aLanguage changed to &e{lang}&a!'
+    reset: '{prefix}&aLanguage resseted to &e{lang}&a!'
+    set_other: '{prefix}&aLanguage of {player} changed to &e{lang}&a'
   reload:
     help: 'pus, el de reload wei, dobabes :v'
     success: '{prefix}&aAll files have been reloaded!'

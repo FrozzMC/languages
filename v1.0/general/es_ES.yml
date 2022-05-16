@@ -9,6 +9,8 @@ commands:
     success: '{prefix}&aLobby spawnpoint setted!'
   lang:
     help: 'pus, el de lang wei, nomms :v'
+    get: '{prefix}&fYour language is &e{lang}&f.'
+    get_other: '{prefix}&b{player}''s &flanguage is &e{lang}&f.'    
     set: '{prefix}&a¡Tu lenguaje cambió a &e{lang}&a!'
     reset: '{prefix}&a¡Tu lenguaje fue reestablecido a &e{lang}&a!'
     reset_other: '{prefix}&a¡El lenguaje de {player} fue reestablecido a &e{lang}&a!'

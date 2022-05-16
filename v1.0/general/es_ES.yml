@@ -19,6 +19,9 @@ commands:
     help: 'pus, el de reload wei, dobabes :v'
     success: '{prefix}&aTodos los archivos han sido reiniciados!'
     local: '{prefix}&aLos archivos locales han sido reiniciados!'
+  fly:
+    activated: '{prefix}&fTu modo de vuelo ha sido &aactivado&f.'
+    deactivated: '{prefix}&fTu modo de vuelo ha sido &cdesactivado&f.'    
 
 noPermission: '&c¡No tienes permiso para hacer eso!'
 languageNotFound: '{prefix}&cEse lenguaje no existe.'

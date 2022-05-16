@@ -10,10 +10,10 @@ commands:
   lang:
     help: 'pus, el de lang wei, nomms :v'
     get: '{prefix}&fYour language is &e{lang}&f.'
-    get_other: '{prefix}&b{player}''s &flanguage is &e{lang}&f.'
-    set: '{prefix}&aLanguage changed to &e{lang}&a!'
-    reset: '{prefix}&aLanguage resseted to &e{lang}&a!'
-    set_other: '{prefix}&aLanguage of {player} changed to &e{lang}&a'
+    get_other: '{prefix}&b{player}&f''s language is &e{lang}&f.'
+    set: '{prefix}&fYour language now is &e{lang}&a!'
+    reset: '{prefix}&fYour language has been restored to &e{lang}&a!'
+    set_other: '{prefix}&fLanguage of &b{player} &frestored to &e{lang}&a'
   reload:
     help: 'pus, el de reload wei, dobabes :v'
     success: '{prefix}&aAll files have been reloaded!'
@@ -24,8 +24,8 @@ commands:
 
 noPermission: '&cYou do not have permissions to do that!'
 sectionNotFound: '&f{section}&cdoesn''t exist!'
-languageNotFound: '{prefix}&cEse lenguaje no existe.'
-keyNotFound: '&cNeed translation: &f{key}.'
+languageNotFound: '{prefix}&cThat language not exist!'
+keyNotFound: '&cNeed translation: &f{key}'
 onlyPlayers: '&cThat option is only for players!'
 onlyConsole: '&cThat option is only for players!'
 commandNotExist: '&cThat command doesn''t exist!'

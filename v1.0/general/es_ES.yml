@@ -11,6 +11,7 @@ commands:
     help: 'pus, el de lang wei, nomms :v'
     set: '{prefix}&a¡Tu lenguaje cambió a &e{lang}&a!'
     reset: '{prefix}&a¡Tu lenguaje fue reestablecido a &e{lang}&a!'
+    reset_other: '{prefix}&a¡El lenguaje de {player} fue reestablecido a &e{lang}&a!'
     set_other: '{prefix}&a¡Lenguaje de {player} ha sido cambiado a &e{lang}&a!'    
   reload:
     help: 'pus, el de reload wei, dobabes :v'
@@ -23,5 +24,6 @@ keyNotFound: '&cEsa key de lenguaje no existe.'
 onlyPlayers: '&c¡Esta opción es solo para jugadores!'
 onlyConsole: '&c¡Esta opción es solo para consola!'
 commandNotExist: '&c¡Ese comando no existe!'
+playerNotExist: '{prefix}&c¡Ese jugador no existe!'
 
 error: '&4¡Error!'

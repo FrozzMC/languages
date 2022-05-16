@@ -26,7 +26,7 @@ commands:
 noPermission: '&c¡No tienes permiso para hacer eso!'
 languageNotFound: '{prefix}&cEse lenguaje no existe.'
 sectionNotFound: '&c¡&f{section} &cno existe!'
-keyNotFound: '&cSin traducción: &f{key}&c.'
+keyNotFound: '&cSin traducción: &f{key}'
 onlyPlayers: '&c¡Esta opción es solo para jugadores!'
 onlyConsole: '&c¡Esta opción es solo para consola!'
 commandNotExist: '&c¡Ese comando no existe!'

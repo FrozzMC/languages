@@ -1,5 +1,5 @@
 scoreboard:
-  title: '&b&lFrozzMC &8(&7%server_online%&8)'
+  title: '%core_fading_FrozzMC_55FFFF_FFFFFF% &8(&7%server_online%&8)'
   lines: |-
       &a
       &e ● &f%player_name%

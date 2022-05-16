@@ -18,6 +18,9 @@ commands:
     help: 'pus, el de reload wei, dobabes :v'
     success: '{prefix}&aAll files have been reloaded!'
     local: '{prefix}&aLocal files have been reloaded!'
+  fly:
+    activated: '{prefix}&fYour flight mode has been &aactivated&f.'
+    deactivated: '{prefix}&fYour flight mode has been &cdeactivated&f.'    
 
 noPermission: '&cYou do not have permissions to do that!'
 sectionNotFound: '&f{section}&cdoesn''t exist!'

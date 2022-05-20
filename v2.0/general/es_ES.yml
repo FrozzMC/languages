@@ -44,3 +44,8 @@ menus:
   not-exist: '{prefix}&cEse menú no existe!'
 
 error: '&4¡Error!'
+
+visibility:
+  ALL: "&aTodos"
+  RANKS: "&6Solo rangos"
+  NOBODY: "&cNadie"

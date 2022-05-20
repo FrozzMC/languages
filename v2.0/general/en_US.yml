@@ -43,3 +43,8 @@ menus:
   not-exist: '{prefix}&cThat menu doesn''t exists!'
 
 error: '&4Error!'
+
+visibility:
+  ALL: "&aAll"
+  RANKS: "&6Only ranks"
+  NOBODY: "&cNobody"

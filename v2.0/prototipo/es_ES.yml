@@ -12,9 +12,18 @@ scoreboard:
       &eplay.frozzmc.us
       
 npcs:
-  skywars:
-    line1: '&b&lSkyWars'
-    line2: '&e%bungee_SkyWars-1% &7jugando'   
+  csgo:
+    line1: '&b&lCSGO'
+    line2: '&e%bungee_csgo% &7jugando'   
+  thelab:
+    line1: '&b&lTheLab'
+    line2: '&e%pb_pc_thelab% &7jugando'
+  prox1:
+    line1: '&c&lProximamente...'
+    line2: '%clocks_prox1_time%'
+  prox2:
+    line1: '&c&lProximamente...'
+    line2: '%clocks_prox2_time%'
 
 tab:
   header: |-

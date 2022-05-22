@@ -7,7 +7,7 @@ scoreboard:
       &f Rango: %luckperms_primary_group_name%
       &f Ping: &e%player_ping%
       &a
-      &f Jugando: &a#%pb_pc_prototype%
+      &f Jugando: &a%pb_pc_prototype%
       &a
       &eplay.frozzmc.us
       

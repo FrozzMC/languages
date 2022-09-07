@@ -9,9 +9,9 @@ commands:
     success: '{prefix}&aLobby spawnpoint establecido!'
   lang:
     help: |-
-      &7/core lang get <player> - &eObtén el lenguaje.
-      &7/core lang set [lang] <player> - &eEstablece el lenguaje.
-      &7/core lang reset <player> - &eReestablece el lenguaje.
+      &7 /core lang get <player> - &eObtén el lenguaje.
+      &7 /core lang set [lang] <player> - &eEstablece el lenguaje.
+      &7 /core lang reset <player> - &eReestablece el lenguaje.
     get: '{prefix}&fTu lenguaje es &e{lang}&f.'
     get_other: '{prefix}&fEl lenguaje de &b{player} &fes &e{lang}&f.'    
     set: '{prefix}&f¡Tu lenguaje cambió a &e{lang}&f!'
@@ -20,13 +20,27 @@ commands:
     set_other: '{prefix}&f¡Lenguaje de &b{player} &fha sido cambiado a &e{lang}&f!'    
   reload:
     help: |-
-      &7/core reload - &eRecarga todos los archivos.
-      &7/core reload local - &eRecarga solamente archivos locales.
+      &7 /core reload - &eRecarga todos los archivos.
+      &7 /core reload local - &eRecarga solamente archivos locales.
     success: '{prefix}&aTodos los archivos han sido reiniciados!'
     local: '{prefix}&aLos archivos locales han sido reiniciados!'
   fly:
     activated: '{prefix}&fTu modo de vuelo ha sido &aactivado&f.'
-    deactivated: '{prefix}&fTu modo de vuelo ha sido &cdesactivado&f.'    
+    deactivated: '{prefix}&fTu modo de vuelo ha sido &cdesactivado&f.'
+  jumppads:
+    help: |-
+      &7 /core jumppads <material> <id>
+      &7 /core jumppads <altura> <multiplicador>
+      &7 /core jumppads <fuerza> <multiplicador>
+      &7 /core jumppads <sonido> <id>
+  worlds: 
+    help: |-
+      &7 /core worlds add <mundo>.
+      &7 /core worlds remove <mundo>.
+      &7 /core worlds toggle <mundo> <módulo>.
+      &7 /core worlds reset <mundo>.
+  open:
+    help: '&7/core open <menu> - &eAbre menú del core.'    
 
 items:
   cooldown: '{prefix}&c¡Debes esperar <time> segundos!'    

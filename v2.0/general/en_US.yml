@@ -9,9 +9,9 @@ commands:
     success: '{prefix}&aLobby spawnpoint setted!'
   lang:
     help: |-
-      &7/core lang get <player> - &eGet the language.
-      &7/core lang set [lang] <player> - &eSet the language.
-      &7/core lang reset <player> - &eReset to default language.
+      &7 /core lang get <player> - &eGet the language.
+      &7 /core lang set [lang] <player> - &eSet the language.
+      &7 /core lang reset <player> - &eReset to default language.
     get: '{prefix}&fYour language is &e{lang}&f.'
     get_other: '{prefix}&b{player}&f''s language is &e{lang}&f.'
     set: '{prefix}&fYour language now is &e{lang}&a!'
@@ -19,10 +19,24 @@ commands:
     set_other: '{prefix}&fLanguage of &b{player} &frestored to &e{lang}&f.'
   reload:
     help: |-
-      &7/core reload - &eReload all files.
-      &7/core reload local - &eReload only local files.
+      &7 /core reload - &eReload all files.
+      &7 /core reload local - &eReload only local files.
     success: '{prefix}&aAll files have been reloaded!'
     local: '{prefix}&aLocal files have been reloaded!'
+  jumppads:
+    help: |-
+      &7 /core jumppads <material> <id>
+      &7 /core jumppads <height> <multiplier>
+      &7 /core jumppads <length> <multiplier>
+      &7 /core jumppads <sound> <id>
+  worlds: 
+    help: |-
+      &7 /core worlds add <world>.
+      &7 /core worlds remove <world>.
+      &7 /core worlds toggle <world> <module>.
+      &7 /core worlds reset <world>.
+  open:
+    help: '&7/core open <menu> - &eOpen core menu.'
   fly:
     activated: '{prefix}&fYour flight mode has been &aactivated&f.'
     deactivated: '{prefix}&fYour flight mode has been &cdeactivated&f.'    

@@ -25,8 +25,8 @@ commands:
     success: '{prefix}&aTodos los archivos han sido reiniciados!'
     local: '{prefix}&aLos archivos locales han sido reiniciados!'
   fly:
-    activated: '{prefix}&fTu modo de vuelo ha sido &aactivado&f.'
-    deactivated: '{prefix}&fTu modo de vuelo ha sido &cdesactivado&f.'
+    activated: '{prefix}&7Tu modo de vuelo ha sido &aactivado&7.'
+    deactivated: '{prefix}&7Tu modo de vuelo ha sido &cdesactivado&7.'
   jumppads:
     help: |-
       &7 /core jumppads <material> <id>
@@ -40,7 +40,17 @@ commands:
       &7 /core worlds toggle <mundo> <módulo>.
       &7 /core worlds reset <mundo>.
   open:
-    help: '&7/core open <menu> - &eAbre menú del core.'    
+    help: '&7/core open <menu> - &eAbre menú del core.'
+  gamemode:
+    modes:
+      CREATIVE: 'Creativo'
+      SURVIVAL: 'Supervivencia'
+      ADVENTURE: 'Aventura'
+      SPECTATOR: 'Espectador'
+    success:
+      self: '{prefix}&7Tu modo de juego ha cambiado a &a{mode}&7.'
+      other: '{prefix}&7Has cambiado el modo de juego de &e{player}&7 a &a{mode}&7.'    
+      all: '{prefix}&7Has cambiado el modo de juego de &etodos&7 a &a{mode}&7.'    
 
 items:
   cooldown: '{prefix}&c¡Debes esperar <time> segundos!'    

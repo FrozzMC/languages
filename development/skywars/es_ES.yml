@@ -12,6 +12,7 @@ scoreboards:
   lobby:
     title: '&b&lSkyWars &7(%server_online%)'
     lines: |-
+      &7
       &7Línea #1
       &7Línea #2
       &7Línea #3

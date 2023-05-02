@@ -1,0 +1,9 @@
+items:
+  lobby:
+    fast-join:
+      name: '&bFast Game &7(Right Click)'
+      lore: |-
+        &7
+        &f Click to join into a
+        &f random skywars game.
+        &7

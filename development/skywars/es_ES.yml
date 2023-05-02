@@ -1,0 +1,9 @@
+items:
+  lobby:
+    fast-join:
+      name: '&bJuego rápido &7(Clic derecho)'
+      lore: |-
+        &7
+        &f Clic para entrar en un
+        &f juego de skywars aleatorio.
+        &7

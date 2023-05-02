@@ -12,10 +12,14 @@ scoreboards:
   lobby:
     title: '&b&lSkyWars &7(%server_online%)'
     lines: |-
+      &b&lInformación:
+      &fRango: %luckperms_prefix%
+      &fPuntos: &a%skywars_coins%
+      &fLobby: &a#1
       &7
-      &7Línea #1
-      &7Línea #2
-      &7Línea #3
-      &7Línea #4
+      &b&lEstadísticas:
+      &fVictorias: &a%skywars_stats_wins%
+      &fKills: &a%skywars_stats_kills%
+      &fMuertes: &a%skywars_stats_deaths%
       &7
-      &emc.server.net
+      &eservermc.net

@@ -7,3 +7,14 @@ items:
         &f Clic para entrar en un
         &f juego de skywars aleatorio.
         &7
+
+scoreboards:
+  lobby:
+    title: '&b&lSkyWars &7(%server_online%)'
+    lines: |-
+      &7Línea #1
+      &7Línea #2
+      &7Línea #3
+      &7Línea #4
+      &7
+      &emc.server.net

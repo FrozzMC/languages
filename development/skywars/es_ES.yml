@@ -12,6 +12,7 @@ scoreboards:
   lobby:
     title: '&b&lSkyWars &7(%server_online%)'
     lines: |-
+      &7
       &b&lInformación:
       &fRango: %luckperms_prefix%
       &fPuntos: &a%skywars_coins%

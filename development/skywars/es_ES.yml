@@ -13,14 +13,76 @@ scoreboards:
     title: '&b&lSkyWars &7(%server_online%)'
     lines: |-
       &7
-      &b&lInformación:
-      &fRango: %luckperms_prefix%
-      &fPuntos: &a%skywars_coins%
-      &fLobby: &a#1
+      &b &lInformación:
+      &f  Rango: %luckperms_prefix%
+      &f  Puntos: &a%skywars_coins%
+      &f  Lobby: &a#1
       &7
-      &b&lEstadísticas:
-      &fVictorias: &a%skywars_stats_wins%
-      &fKills: &a%skywars_stats_kills%
-      &fMuertes: &a%skywars_stats_deaths%
+      &b &lEstadísticas:
+      &f  Victorias: &a%skywars_stats_wins%
+      &f  Kills: &a%skywars_stats_kills%
+      &f  Muertes: &a%skywars_stats_deaths%
       &7
-      &eservermc.net
+      &e servermc.net
+  waiting:
+    title: '&b&lSkyWars'
+    lines: |-
+      &8 <date>
+      &7
+      &f Mapa: &a%a-name%
+      &7
+      &f Jugadores: &e%a-ingame-p%/&e%a-max-p%
+      &7
+      &f Tu kit: &b%kit%
+      &7
+      &f Servidor: &b%BUNGEE-ID%
+      &f Modo: &aSolo
+      &7
+      &e servermc.net
+  starting:
+    title: '&b&lSkyWars'
+    lines: |-
+      &8 <date>
+      &7
+      &f Mapa: &a%a-name%
+      &7
+      &f Jugadores: &e%a-ingame-p%/&e%a-max-p%
+      &f Iniciando en: &a%A-COUNTDOWN%
+      &7
+      &f Tu kit: &b%kit%
+      &7
+      &f Servidor: &b%BUNGEE-ID%
+      &f Modo: &aSolo
+      &7
+      &e servermc.net
+  ingame:
+    title: '&b&lSkyWars'
+    lines: |-
+      &8 <date>
+      &8
+       <a-events>&f%a-event-title% en: &c%a-event-time%
+      <a-events>%empty%
+      &f Mapa: &a%a-name%
+      &8
+      &f Jugadores restantes: &e%a-ingame-p%
+      &8
+      &f Servidor: &b%BUNGEE-ID%
+      &f Modo: &aSolo
+      &8
+      &e servermc.net
+  ending:
+    title: '&b&lSkyWars'
+    lines: |-
+      &8 <date>
+      &8
+      &f Mapa: &a%a-name%
+      &8
+      &f Ganador: &e%A-WINNER%
+      &8
+      &f El ganador obtuvo &c%A-WINNER-KILLS%&f kills
+      &f en esta partida de SkyWars
+      &8
+      &f Servidor: &b%BUNGEE-ID%
+      &f Modo: &aSolo
+      &8
+      &e servermc.net
